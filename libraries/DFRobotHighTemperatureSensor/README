@@ -1,36 +1,20 @@
-  DHT22.cpp - DHT22 sensor library
-  Developed by Ben Adams - 2011
 
-Humidity and Temperature Sensor DHT22 info found at
-  http://www.sparkfun.com/products/10167
-The same sensor has also been spotted going by the names RHT22, AM2302
-and RHT03 from a variety of vendors. It uses a non-standard 1-wire digital
-signalling protocol.
+  DFRobotHighTemperatureSensor.cpp - DFRobotHighTemperatureSensor library
+  Developed by Bernie - 2016/1/13
 
-To install this library for use with the Arduino IDE, copy it
-to the `libraries' folder and restart the IDE. For an example of
-how to use it, see File->Examples->DHT22->Serial .
+  This library is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 2.1 of the License, or (at your option) any later version.
 
-Version 0.5: 15-Jan-2012 by Craig Ringer
-Update to support Arduino 1.0
-Make accessors inlineable so they can be optimised away
-Preserve original integer values from sensor and offer access to them
-Permit floating point support to be disalbed by defining DHT22_NO_FLOAT before including DHT22.h
+  This library is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
 
-Version 0.4: 24-Jan-2011 by Ben Adams
-Added return code constants to keywords.txt
-Returns DHT_ERROR_CHECKSUM on check sum mismatch 
+HighTemperature Sensor info found at
+http://www.dfrobot.com/
 
-Version 0.3: 17-Jan-2011 by Ben Adams
-This version reads data
-Needs check sum code added at the end of readData
-
-Version 0.2: 16-Jan-2011 by Ben Adams
-Changed coding style to match other Arduino libraries.
-This version will not read data either!
-
-Version 0.1: 10-Jan-2011 by Ben Adams nethoncho AT gmail.com
-First Version is a skeleton. This version will not read data!
-Code adapted from the following sources:
-The Arduino OneWire lib
-http://sheepdogguides.com/arduino/ar3ne1humDHT11.htm
+Version 1.0: 13 Jan 2016 by bernie
+- Updated to build against Arduino 1.0.6
+- Made accessors inline in the header so they can be optimized away

@@ -15,7 +15,7 @@
 HighTemperature Sensor info found at
 http://www.dfrobot.com/
 
-Version 1.0: 13 Jan 2016 by Craig bernie
+Version 1.0: 13 Jan 2016 by bernie
 - Updated to build against Arduino 1.0.6
 - Made accessors inline in the header so they can be optimized away
 */
