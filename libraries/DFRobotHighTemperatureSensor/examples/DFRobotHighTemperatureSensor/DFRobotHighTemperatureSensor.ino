@@ -28,6 +28,6 @@ void loop(void) {
   int temperature = PT100.readTemperature(HighTemperaturePin);  //Get temperature
   Serial.print("temperature:  ");
   Serial.print(temperature);
-  Serial.println("  °C");
+  Serial.println("  ^C");
   delay(1000); //just here to slow down the output so it is easier to read
 }
